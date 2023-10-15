@@ -13,6 +13,14 @@ To be honest, Amazon's Java 17 runtime is already really good, but it has a big 
 
 This is where GraalVM comes in.
 
+With the amazon Java 17 runtime : 
+
 ![plot](./images/non-native-init.png)
+
+With a graalVm native executable on an amazon custom image .
+
+![plot](./images/native-init.png)
+
+
 
 
