@@ -1,0 +1,1 @@
+# micronaut-native-aws-lambda
