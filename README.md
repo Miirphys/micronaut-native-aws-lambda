@@ -1,6 +1,6 @@
 Welcome .
 
-As an experienced Java developer, and I decided to try making a AWS lambda in this language.
+As an experienced Java developer, and I decided to try making an AWS lambda in this language.
 
 But after a few day i was wondering why the response times on my lambda were so up and down.
 
