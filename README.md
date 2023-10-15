@@ -1,23 +1,23 @@
 
 # micronaut-native-aws-lambda
 
-#### As an experienced Java developer, i decided to try making an AWS lambda in the java language.
+As an experienced Java developer, i decided to try making an AWS lambda in the java language.
 
-#### But after a few day i was wondering why the response times on my lambda were so up and down.
+But after a few day i was wondering why the response times on my lambda were so up and down.
 
-#### The answer is pretty simple :
+The answer is pretty simple :
 
-#### AWS is like a big machine that shares computer time.
+AWS is like a big machine that shares computer time.
 
-####  If a service, like a lambda, isn't used for a while, its running image will just be taken off and then started again when needed.
+If a service, like a lambda, isn't used for a while, its running image will just be taken off and then started again when needed.
 
-#### Amazon's Java 17 runtime performance is really good, but it has a big problem with performance the first time it starts.
+Amazon's Java 17 runtime performance is really good, but it has a big problem with performance the first time it starts.
 
-#### This is basically where GraalVM comes in.
+This is basically where GraalVM comes in.
 
-#### I heard really good things about GraalVM and the Micronaut framework .
+I heard really good things about GraalVM and the Micronaut framework .
 
-#### But like any experienced developer, I wanted to see it by myself.
+But like any experienced developer, I wanted to see it by myself.
 
 Here's the result of a simple test that you can easily do on an Amazon lambda using the code from this repository : 
 
